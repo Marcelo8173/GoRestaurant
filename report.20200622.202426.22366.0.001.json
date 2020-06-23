@@ -1,0 +1,525 @@
+
+{
+  "header": {
+    "reportVersion": 2,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200622.202426.22366.0.001.json",
+    "dumpEventTime": "2020-06-22T20:24:26Z",
+    "dumpEventTimeStamp": "1592871867094",
+    "processId": 22366,
+    "threadId": null,
+    "cwd": "/home/marcelo/Área de Trabalho/Bootcamp-2/ReactJs/desafio/desafio 02/GoRestaurant",
+    "commandLine": [
+      "/usr/bin/node",
+      "/home/marcelo/Área de Trabalho/Bootcamp-2/ReactJs/desafio/desafio 02/GoRestaurant/node_modules/jest-worker/build/workers/processChild.js"
+    ],
+    "nodejsVersion": "v12.16.2",
+    "glibcVersionRuntime": "2.27",
+    "glibcVersionCompiler": "2.17",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "linux",
+    "componentVersions": {
+      "node": "12.16.2",
+      "v8": "7.8.279.23-node.34",
+      "uv": "1.34.2",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.4",
+      "http_parser": "2.9.3",
+      "openssl": "1.1.1e",
+      "cldr": "36.0",
+      "icu": "65.1",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.16.2/node-v12.16.2-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.16.2/node-v12.16.2.tar.gz"
+    },
+    "osName": "Linux",
+    "osRelease": "5.3.0-46-generic",
+    "osVersion": "#38~18.04.1-Ubuntu SMP Tue Mar 31 04:17:56 UTC 2020",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+        "speed": 2580,
+        "user": 18471800,
+        "nice": 8000,
+        "sys": 2424100,
+        "idle": 148121200,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+        "speed": 2601,
+        "user": 18002000,
+        "nice": 10600,
+        "sys": 2734000,
+        "idle": 144447000,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+        "speed": 2475,
+        "user": 18905700,
+        "nice": 8200,
+        "sys": 2480000,
+        "idle": 145860000,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+        "speed": 2605,
+        "user": 19009200,
+        "nice": 10700,
+        "sys": 2565000,
+        "idle": 145827700,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+        "speed": 2527,
+        "user": 17833800,
+        "nice": 8200,
+        "sys": 2538400,
+        "idle": 147746400,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+        "speed": 2529,
+        "user": 18059600,
+        "nice": 9400,
+        "sys": 2545100,
+        "idle": 148258500,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+        "speed": 2574,
+        "user": 17593900,
+        "nice": 9000,
+        "sys": 2507500,
+        "idle": 148665800,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+        "speed": 2775,
+        "user": 17361400,
+        "nice": 9700,
+        "sys": 2504600,
+        "idle": 149114200,
+        "irq": 0
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "lo",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "wlo1",
+        "internal": false,
+        "mac": "5c:cd:5b:49:7e:ab",
+        "address": "192.168.15.141",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "lo",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "wlo1",
+        "internal": false,
+        "mac": "5c:cd:5b:49:7e:ab",
+        "address": "2804:1b2:f080:de4f:7503:9d9:6646:ace4",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "wlo1",
+        "internal": false,
+        "mac": "5c:cd:5b:49:7e:ab",
+        "address": "2804:1b2:f080:de4f:1f1d:7ca2:42e3:419",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "wlo1",
+        "internal": false,
+        "mac": "5c:cd:5b:49:7e:ab",
+        "address": "fe80::dfaa:d0c6:4b93:82c1",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 3
+      }
+    ],
+    "host": "marcelo-Inspiron-3583"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x0000000000b40285",
+      "symbol": "report::TriggerNodeReport(v8::Isolate*, node::Environment*, char const*, char const*, std::string const&, v8::Local<v8::String>) [/usr/bin/node]"
+    },
+    {
+      "pc": "0x0000000000a033ef",
+      "symbol": "node::OnFatalError(char const*, char const*) [/usr/bin/node]"
+    },
+    {
+      "pc": "0x0000000000b76ffe",
+      "symbol": "v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [/usr/bin/node]"
+    },
+    {
+      "pc": "0x0000000000b77379",
+      "symbol": "v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [/usr/bin/node]"
+    },
+    {
+      "pc": "0x0000000000d23ad5",
+      "symbol": " [/usr/bin/node]"
+    },
+    {
+      "pc": "0x0000000000d24166",
+      "symbol": "v8::internal::Heap::RecomputeLimits(v8::internal::GarbageCollector) [/usr/bin/node]"
+    },
+    {
+      "pc": "0x0000000000d309e5",
+      "symbol": "v8::internal::Heap::PerformGarbageCollection(v8::internal::GarbageCollector, v8::GCCallbackFlags) [/usr/bin/node]"
+    },
+    {
+      "pc": "0x0000000000d31895",
+      "symbol": "v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [/usr/bin/node]"
+    },
+    {
+      "pc": "0x0000000000d3434c",
+      "symbol": "v8::internal::Heap::AllocateRawWithRetryOrFail(int, v8::internal::AllocationType, v8::internal::AllocationOrigin, v8::internal::AllocationAlignment) [/usr/bin/node]"
+    },
+    {
+      "pc": "0x0000000000cfaf1b",
+      "symbol": "v8::internal::Factory::NewFillerObject(int, bool, v8::internal::AllocationType, v8::internal::AllocationOrigin) [/usr/bin/node]"
+    },
+    {
+      "pc": "0x000000000103d85e",
+      "symbol": "v8::internal::Runtime_AllocateInYoungGeneration(int, unsigned long*, v8::internal::Isolate*) [/usr/bin/node]"
+    },
+    {
+      "pc": "0x00000000013c03d9",
+      "symbol": " [/usr/bin/node]"
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2151428096,
+    "totalCommittedMemory": 2149895200,
+    "usedMemory": 2142386528,
+    "availableMemory": 48638864,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 33088,
+        "capacity": 32808,
+        "used": 32808,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 2097152,
+        "committedMemory": 1140080,
+        "capacity": 1047456,
+        "used": 90720,
+        "available": 956736
+      },
+      "old_space": {
+        "memorySize": 2105942016,
+        "committedMemory": 2105629824,
+        "capacity": 2101361432,
+        "used": 2101113960,
+        "available": 247472
+      },
+      "code_space": {
+        "memorySize": 1740800,
+        "committedMemory": 1706592,
+        "capacity": 1430272,
+        "used": 1430272,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 3411968,
+        "committedMemory": 3411600,
+        "capacity": 1820800,
+        "used": 1820800,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 37924864,
+        "committedMemory": 37924864,
+        "capacity": 37895184,
+        "used": 37895184,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 2784,
+        "used": 2784,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1047456,
+        "used": 0,
+        "available": 1047456
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 2833.98,
+    "kernelCpuSeconds": 19.2914,
+    "cpuConsumptionPercent": 131.065,
+    "maxRss": 2330181632,
+    "pageFaults": {
+      "IORequired": 313,
+      "IONotRequired": 3185949
+    },
+    "fsActivity": {
+      "reads": 49576,
+      "writes": 56
+    }
+  },
+  "uvthreadResourceUsage": {
+    "userCpuSeconds": 2149.91,
+    "kernelCpuSeconds": 9.26604,
+    "cpuConsumptionPercent": 99.1814,
+    "fsActivity": {
+      "reads": 44024,
+      "writes": 56
+    }
+  },
+  "libuv": [
+  ],
+  "workers": [
+  ],
+  "environmentVariables": {
+    "GJS_DEBUG_TOPICS": "JS ERROR;JS LOG",
+    "LESSOPEN": "| /usr/bin/lesspipe %s",
+    "npm_package_devDependencies__types_react_router_dom": "^5.1.4",
+    "USER": "marcelo",
+    "LANGUAGE": "pt_BR:pt:en",
+    "npm_package_dependencies__types_jest": "^24.0.0",
+    "npm_config_version_commit_hooks": "true",
+    "npm_config_user_agent": "yarn/1.22.4 npm/? node/v12.16.2 linux x64",
+    "TEXTDOMAIN": "im-config",
+    "XDG_SEAT": "seat0",
+    "npm_config_bin_links": "true",
+    "SSH_AGENT_PID": "3484",
+    "XDG_SESSION_TYPE": "x11",
+    "npm_node_execpath": "/usr/bin/node",
+    "npm_config_init_version": "1.0.0",
+    "SHLVL": "2",
+    "npm_package_devDependencies_eslint_import_resolver_typescript": "^2.0.0",
+    "CHROME_DESKTOP": "code-url-handler.desktop",
+    "HOME": "/home/marcelo",
+    "npm_package_browserslist_production_0": ">0.2%",
+    "npm_package_devDependencies__typescript_eslint_parser": "^2.28.0",
+    "npm_package_devDependencies__types_yup": "^0.26.36",
+    "DESKTOP_SESSION": "cinnamon",
+    "TERM_PROGRAM_VERSION": "1.43.0",
+    "npm_package_browserslist_production_1": "not dead",
+    "npm_package_devDependencies_eslint_config_prettier": "^6.10.1",
+    "GIO_LAUNCHED_DESKTOP_FILE": "/usr/share/applications/code.desktop",
+    "npm_package_browserslist_production_2": "not op_mini all",
+    "npm_config_init_license": "MIT",
+    "GTK_MODULES": "gail:atk-bridge",
+    "XDG_SEAT_PATH": "/org/freedesktop/DisplayManager/Seat0",
+    "YARN_WRAP_OUTPUT": "false",
+    "npm_package_dependencies__unform_core": "^2.1.0",
+    "npm_package_dependencies__types_react_modal": "^3.10.5",
+    "npm_config_version_tag_prefix": "v",
+    "npm_package_dependencies_react_icons": "^3.10.0",
+    "DBUS_SESSION_BUS_ADDRESS": "unix:path=/run/user/1000/bus",
+    "CINNAMON_VERSION": "4.4.8",
+    "npm_package_devDependencies_eslint_plugin_react_hooks": "^2.5.0",
+    "COLORTERM": "truecolor",
+    "GIO_LAUNCHED_DESKTOP_FILE_PID": "19634",
+    "npm_package_dependencies_react_scripts": "3.4.1",
+    "npm_package_dependencies_react_router_dom": "^5.2.0",
+    "NVM_DIR": "/home/marcelo/.nvm",
+    "npm_package_dependencies__types_react": "^16.9.0",
+    "npm_package_dependencies__testing_library_react": "^9.3.2",
+    "MANDATORY_PATH": "/usr/share/gconf/cinnamon.mandatory.path",
+    "QT_QPA_PLATFORMTHEME": "qt5ct",
+    "IM_CONFIG_PHASE": "2",
+    "npm_package_devDependencies_prettier": "^2.0.4",
+    "LOGNAME": "marcelo",
+    "npm_package_devDependencies_eslint_plugin_import": "^2.20.1",
+    "_": "/usr/bin/yarn",
+    "npm_package_devDependencies_ts_jest": "^26.0.0",
+    "npm_package_private": "true",
+    "DEFAULTS_PATH": "/usr/share/gconf/cinnamon.default.path",
+    "npm_package_devDependencies__typescript_eslint_eslint_plugin": "^2.28.0",
+    "npm_package_dependencies_yup": "^0.29.0",
+    "npm_config_registry": "https://registry.yarnpkg.com",
+    "GTK_OVERLAY_SCROLLING": "1",
+    "XDG_SESSION_ID": "c2",
+    "TERM": "xterm-256color",
+    "GNOME_DESKTOP_SESSION_ID": "this-is-deprecated",
+    "npm_package_scripts_start": "react-app-rewired start",
+    "npm_package_dependencies__unform_web": "^2.1.0",
+    "npm_config_ignore_scripts": "",
+    "npm_package_browserslist_development_0": "last 1 chrome version",
+    "npm_package_dependencies_axios": "^0.19.2",
+    "PATH": "/tmp/yarn--1592869690832-0.4455705257591678:/home/marcelo/Área de Trabalho/Bootcamp-2/ReactJs/desafio/desafio 02/GoRestaurant/node_modules/.bin:/home/marcelo/.config/yarn/link/node_modules/.bin:/home/marcelo/.yarn/bin:/usr/libexec/lib/node_modules/npm/bin/node-gyp-bin:/usr/lib/node_modules/npm/bin/node-gyp-bin:/usr/bin/node_modules/npm/bin/node-gyp-bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/marcelo/Android/Sdk/emulator:/home/marcelo/Android/Sdk/tools:/home/marcelo/Android/Sdk/tools/bin:/home/marcelo/Android/Sdk/platform-tools:/home/marcelo/Android/Sdk/emulator:/home/marcelo/Android/Sdk/tools:/home/marcelo/Android/Sdk/tools/bin:/home/marcelo/Android/Sdk/platform-tools",
+    "NODE": "/usr/bin/node",
+    "GDM_LANG": "pt_BR",
+    "SESSION_MANAGER": "local/marcelo-Inspiron-3583:@/tmp/.ICE-unix/3416,unix/marcelo-Inspiron-3583:/tmp/.ICE-unix/3416",
+    "npm_package_browserslist_development_1": "last 1 firefox version",
+    "npm_package_name": "gostack-challenge-10",
+    "XDG_RUNTIME_DIR": "/run/user/1000",
+    "XDG_SESSION_PATH": "/org/freedesktop/DisplayManager/Session0",
+    "npm_package_browserslist_development_2": "last 1 safari version",
+    "npm_package_devDependencies_eslint_plugin_jsx_a11y": "^6.2.3",
+    "npm_package_devDependencies_axios_mock_adapter": "^1.18.1",
+    "DISPLAY": ":0",
+    "npm_package_scripts_eject": "react-scripts eject",
+    "npm_package_devDependencies_json_server": "^0.16.1",
+    "npm_package_devDependencies_eslint_config_airbnb": "^18.1.0",
+    "LANG": "pt_BR.UTF-8",
+    "XDG_CURRENT_DESKTOP": "X-Cinnamon",
+    "npm_package_devDependencies_eslint": "^6.8.0",
+    "npm_package_devDependencies__types_styled_components": "^5.1.0",
+    "npm_package_dependencies_react_dom": "^16.13.1",
+    "LS_COLORS": "rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:",
+    "TERM_PROGRAM": "vscode",
+    "XDG_SESSION_DESKTOP": "cinnamon",
+    "XAUTHORITY": "/home/marcelo/.Xauthority",
+    "npm_lifecycle_script": "react-app-rewired test",
+    "npm_package_dependencies__types_node": "^12.0.0",
+    "SSH_AUTH_SOCK": "/run/user/1000/keyring/ssh",
+    "XDG_GREETER_DATA_DIR": "/var/lib/lightdm-data/marcelo",
+    "npm_package_scripts_test": "react-app-rewired test",
+    "npm_config_version_git_message": "v%s",
+    "SHELL": "/bin/bash",
+    "npm_lifecycle_event": "test",
+    "npm_package_dependencies__testing_library_jest_dom": "^4.2.4",
+    "npm_package_version": "0.1.0",
+    "QT_ACCESSIBILITY": "1",
+    "GDMSESSION": "cinnamon",
+    "npm_config_argv": "{\"remain\":[],\"cooked\":[\"run\",\"test\"],\"original\":[\"test\"]}",
+    "npm_package_scripts_build": "react-app-rewired build",
+    "npm_package_dependencies__testing_library_user_event": "^7.1.2",
+    "LESSCLOSE": "/usr/bin/lesspipe %s %s",
+    "npm_package_devDependencies_react_app_rewired": "^2.1.6",
+    "npm_config_version_git_tag": "true",
+    "npm_config_version_git_sign": "",
+    "TEXTDOMAINDIR": "/usr/share/locale/",
+    "GJS_DEBUG_OUTPUT": "stderr",
+    "GPG_AGENT_INFO": "/run/user/1000/gnupg/S.gpg-agent:0:1",
+    "npm_package_devDependencies_eslint_plugin_react": "^7.19.0",
+    "npm_config_strict_ssl": "true",
+    "XDG_VTNR": "7",
+    "npm_package_devDependencies_jest_environment_jsdom_sixteen": "^1.0.3",
+    "npm_package_devDependencies_eslint_plugin_prettier": "^3.1.3",
+    "JAVA_HOME": "/usr/lib/jvm/java-11-openjdk-amd64",
+    "PWD": "/home/marcelo/Área de Trabalho/Bootcamp-2/ReactJs/desafio/desafio 02/GoRestaurant",
+    "npm_execpath": "/usr/share/yarn/bin/yarn.js",
+    "ANDROID_HOME": "/home/marcelo/Android/Sdk",
+    "NVM_CD_FLAGS": "",
+    "XDG_DATA_DIRS": "/usr/share/cinnamon:/usr/share/gnome:/home/marcelo/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop",
+    "XDG_CONFIG_DIRS": "/etc/xdg/xdg-cinnamon:/etc/xdg",
+    "npm_package_dependencies_react_modal": "^3.11.2",
+    "npm_package_dependencies_styled_components": "^5.1.0",
+    "npm_config_save_prefix": "^",
+    "npm_config_ignore_optional": "",
+    "npm_package_dependencies_typescript": "~3.7.2",
+    "INIT_CWD": "/home/marcelo/Área de Trabalho/Bootcamp-2/ReactJs/desafio/desafio 02/GoRestaurant",
+    "NVM_RC_VERSION": "",
+    "npm_package_eslintConfig_extends": "react-app",
+    "npm_package_dependencies_react": "^16.13.1",
+    "npm_package_dependencies__types_react_dom": "^16.9.0",
+    "NODE_ENV": "test",
+    "NODE_PATH": "",
+    "BABEL_ENV": "test",
+    "PUBLIC_URL": "",
+    "JEST_WORKER_ID": "1",
+    "FORCE_COLOR": "1"
+  },
+  "userLimits": {
+    "core_file_size_blocks": {
+      "soft": 0,
+      "hard": "unlimited"
+    },
+    "data_seg_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "file_size_blocks": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_locked_memory_bytes": {
+      "soft": 16777216,
+      "hard": 16777216
+    },
+    "max_memory_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "open_files": {
+      "soft": 1048576,
+      "hard": 1048576
+    },
+    "stack_size_bytes": {
+      "soft": 8388608,
+      "hard": "unlimited"
+    },
+    "cpu_time_seconds": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_user_processes": {
+      "soft": 31054,
+      "hard": 31054
+    },
+    "virtual_memory_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    }
+  },
+  "sharedObjects": [
+    "linux-vdso.so.1",
+    "/lib/x86_64-linux-gnu/libdl.so.2",
+    "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+    "/lib/x86_64-linux-gnu/libm.so.6",
+    "/lib/x86_64-linux-gnu/libgcc_s.so.1",
+    "/lib/x86_64-linux-gnu/libpthread.so.0",
+    "/lib/x86_64-linux-gnu/libc.so.6",
+    "/lib64/ld-linux-x86-64.so.2"
+  ]
+}

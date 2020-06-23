@@ -2,7 +2,6 @@ import React from 'react';
 
 import { FiPlusSquare } from 'react-icons/fi';
 import { Container } from './styles';
-
 import Logo from '../../assets/logo.svg';
 
 interface IHeaderProps {
@@ -18,7 +17,7 @@ const Header: React.FC<IHeaderProps> = ({ openModal }) => (
           <button
             type="button"
             onClick={() => {
-              /* TODO OPEN MODAL */
+              openModal();
             }}
           >
             <div className="text">Novo Prato</div>
